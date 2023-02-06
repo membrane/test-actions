@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8c426d7-d167-45df-bd53-f732e645c3c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/publish.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +91,7 @@
       <workItem from="1675702149413" duration="22000" />
       <workItem from="1675702244107" duration="2200000" />
       <workItem from="1675707306295" duration="335000" />
-      <workItem from="1675707648100" duration="770000" />
+      <workItem from="1675707648100" duration="1055000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1675431169449</created>
@@ -163,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675707788893</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="init">
+      <created>1675708553647</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675708553647</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
