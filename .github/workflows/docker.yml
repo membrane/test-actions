@@ -1,0 +1,6 @@
+# action.yml
+name: 'Hello Boot'
+description: 'Boots'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
