@@ -1,0 +1,15 @@
+Index: .github/workflows/learn-github-actions.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>name: Java CI\non: [push]\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v3\n      - name: Set up JDK 17\n        uses: actions/setup-java@v3\n        with:\n          java-version: '17'\n          distribution: 'temurin'\n          cache: maven\n      - name: Build with Maven\n        run: mvn --batch-mode --update-snapshots package\n
+===================================================================
+diff --git a/.github/workflows/learn-github-actions.yml b/.github/workflows/learn-github-actions.yml
+--- a/.github/workflows/learn-github-actions.yml	
++++ b/.github/workflows/learn-github-actions.yml	
+@@ -12,4 +12,4 @@
+           distribution: 'temurin'
+           cache: maven
+       - name: Build with Maven
+-        run: mvn --batch-mode --update-snapshots package
++        run: mvn --batch-mode --update-snapshots package
+\ No newline at end of file
