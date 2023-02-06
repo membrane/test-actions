@@ -9,7 +9,7 @@ import java.util.*;
 public class DemoBootApplication {
 
     public static void main(String[] args) {
-        System.out.println("args = " + Arrays.toString(args));
+        System.out.println("args1 = " + Arrays.toString(args));
         SpringApplication.run(DemoBootApplication.class, args);
     }
 
