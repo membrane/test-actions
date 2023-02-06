@@ -6,8 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: stCarolas/setup-maven@v.4.5
         with:
-          node-version: '14'
-      - run: npm install -g bats
-      - run: bats -v
+          maven-version: 3.8.2
+      - run: mvn package
+
